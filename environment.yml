@@ -1,1 +1,16 @@
+name: chd-sav-solver
 
+channels:
+  - conda-forge
+  - nvidia
+
+dependencies:
+  - python=3.11
+  - numpy
+  - scipy
+  - matplotlib
+  - tqdm
+  - jupyter
+  - pip
+  - pip:
+      - cupy-cuda12x
