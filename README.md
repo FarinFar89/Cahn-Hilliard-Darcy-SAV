@@ -202,6 +202,47 @@ Simulation of spontaneous phase separation from an initially mixed state.
 
 Verification of the temporal accuracy and numerical properties of the scheme.
 
+## Numerical Results
+
+The implementation reproduces the numerical experiments presented in the accompanying Master's thesis.
+
+### Droplet Coarsening
+
+The following simulation illustrates droplet coarsening, where a smaller droplet gradually dissolves while the larger droplet grows due to mass diffusion.
+
+<p align="center">
+  <img src="figures/coarsening.png" width="100%">
+</p>
+
+---
+
+### Spinodal Decomposition (φ = 0)
+
+Evolution from a random initial condition with zero average concentration.
+
+<p align="center">
+  <img src="figures/spinodal_phi0.png" width="100%">
+</p>
+
+---
+
+### Spinodal Decomposition (φ = 0.3)
+
+Evolution from an initial condition with non-zero average concentration.
+
+<p align="center">
+  <img src="figures/spinodal_phi03.png" width="100%">
+</p>
+
+---
+
+### Temporal Convergence
+
+Comparison of the numerical error for different SAV-based schemes.
+
+<p align="center">
+  <img src="figures/convergence_study.jfif" width="70%">
+</p>
 ---
 
 # Performance Benchmark
