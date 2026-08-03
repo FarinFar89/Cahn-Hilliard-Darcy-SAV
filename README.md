@@ -1,3 +1,5 @@
+<img width="2172" height="724" alt="image" src="https://github.com/user-attachments/assets/a8a461ea-b962-4b14-a27b-e78bf48c96fe" />
+
 # Cahn-Hilliard-Darcy-SAV
 
 Python implementation of the fully decoupled Scalar Auxiliary Variable (SAV) scheme proposed by Yang (2021) for the Cahn–Hilliard–Darcy system of two-phase Hele–Shaw flow.
