@@ -1,0 +1,4 @@
+Test Case,Resolution,CPU Time (s),GPU Time (s),Speedup
+Coarsening,128x128 (8000 steps),34,42,0.8
+Spinodal decomposition,512x512 (40000-50000 steps),7200,540,13
+Convergence study,25 runs,46800,39600,1.2
