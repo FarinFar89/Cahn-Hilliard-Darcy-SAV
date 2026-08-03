@@ -1,1 +1,24 @@
-
+cff-version: 1.2.0
+message: "If you use this repository in your research, please cite it as follows."
+authors:
+  - family-names: Farrokhseresht
+    given-names: Farin
+title: "Cahn-Hilliard-Darcy-SAV: Python implementation of a fully decoupled SAV scheme for the Cahn–Hilliard–Darcy system"
+version: 1.0.0
+date-released: 2026-08-03
+url: "https://github.com/<username>/Cahn-Hilliard-Darcy-SAV"
+repository-code: "https://github.com/<username>/Cahn-Hilliard-Darcy-SAV"
+keywords:
+  - Cahn-Hilliard equation
+  - Darcy flow
+  - Scalar Auxiliary Variable
+  - SAV scheme
+  - Fourier spectral method
+  - GPU acceleration
+  - Scientific computing
+license: MIT
+abstract: >
+  Python implementation of a fully decoupled, linear, and second-order accurate
+  Scalar Auxiliary Variable scheme for the Cahn–Hilliard–Darcy system of
+  two-phase Hele–Shaw flow. This repository accompanies the Master's thesis
+  developed at the University of Koblenz in 2026.
