@@ -6,8 +6,8 @@ authors:
 title: "Cahn-Hilliard-Darcy-SAV: Python implementation of a fully decoupled SAV scheme for the Cahn–Hilliard–Darcy system"
 version: 1.0.0
 date-released: 2026-08-03
-url: "https://github.com/<username>/Cahn-Hilliard-Darcy-SAV"
-repository-code: "https://github.com/<username>/Cahn-Hilliard-Darcy-SAV"
+url: "https://github.com/FarinFar89/Cahn-Hilliard-Darcy-SAV"
+repository-code: "https://github.com/FarinFar89/Cahn-Hilliard-Darcy-SAV"
 keywords:
   - Cahn-Hilliard equation
   - Darcy flow
