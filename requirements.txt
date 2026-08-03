@@ -1,9 +1,6 @@
-CPU installation:
 numpy
 scipy
 matplotlib
-tqdm
 jupyter
-
-GPU support:
-cupy-cuda12x
+tqdm
+ipykernel
