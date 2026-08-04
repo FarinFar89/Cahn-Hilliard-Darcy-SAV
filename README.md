@@ -150,6 +150,12 @@ For GPU execution, ensure that the CUDA environment and CuPy installation are co
 
 ---
 
+## Quick Reproducibility Check
+
+After installing the CPU dependencies, run a small coarsening demo:
+
+```bash
+python examples/quick_coarsening_demo.py
 # Running the Simulations
 
 The CPU and GPU implementations are provided as Jupyter notebooks.
