@@ -7,13 +7,11 @@
 ![License](https://img.shields.io/badge/License-MIT-yellow)
 ![Research](https://img.shields.io/badge/Type-Scientific%20Computing-purple)
 
-Python implementation of the fully decoupled Scalar Auxiliary Variable (SAV) scheme proposed by Yang (2021) for the Cahn–Hilliard–Darcy system of two-phase Hele–Shaw flow.
+This repository contains the Python implementation developed for my Master's thesis at the University of Koblenz.
 
-This repository contains the computational framework developed for the Master's thesis:
+The project implements and evaluates the fully decoupled Scalar Auxiliary Variable (SAV) scheme of Yang (2021) for the Cahn–Hilliard–Darcy system of two-phase Hele–Shaw flow, including CPU and GPU implementations, convergence experiments, benchmark results, and thesis figures.
 
-**"On a Novel Fully Decoupled, Linear and Second-Order Accurate Numerical Scheme for the Cahn–Hilliard–Darcy System of Two-Phase Hele–Shaw Flow"**
-
-University of Koblenz, 2026.
+**Master's thesis:** *On a Novel Fully Decoupled, Linear and Second-Order Accurate Numerical Scheme for the Cahn–Hilliard–Darcy System of Two-Phase Hele–Shaw Flow*, University of Koblenz, 2026.
 
 ---
 
