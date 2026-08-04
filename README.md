@@ -265,6 +265,112 @@ benchmarks/CPU_vs_GPU.md
 ```
 
 ---
+---
+
+# Project Highlights
+
+- Implementation of the fully decoupled Scalar Auxiliary Variable (SAV) scheme proposed by Yang (2021) for the Cahn–Hilliard–Darcy system.
+- Linear, second-order accurate, and energy-stable time integration.
+- Fourier spectral spatial discretization using Fast Fourier Transforms (FFT).
+- CPU implementation based on NumPy and SciPy.
+- GPU-accelerated implementation using CuPy and CUDA.
+- Reproduction of the numerical experiments presented in the accompanying Master's thesis.
+- Validation through droplet coarsening, spinodal decomposition, and temporal convergence studies.
+- Open-source Python implementation intended for scientific computing, numerical analysis, and computational mathematics research.
+
+---
+
+# Reproducing the Thesis Results
+
+The numerical experiments presented in the accompanying Master's thesis can be reproduced using the provided CPU and GPU implementations.
+
+## Droplet Coarsening
+
+Run either
+
+```text
+CPU/CHD_CPU.ipynb
+```
+
+or
+
+```text
+GPU/CHD_GPU.ipynb
+```
+
+and execute the section corresponding to the droplet coarsening experiment.
+
+The generated simulation reproduces the droplet coarsening dynamics presented in the thesis.
+
+---
+
+## Spinodal Decomposition
+
+The spinodal decomposition experiments are included in both notebooks.
+
+Run the corresponding simulation sections to reproduce the numerical results for
+
+- Zero average concentration (φ = 0)
+- Non-zero average concentration (φ = 0.3)
+
+The generated figures correspond to those presented in the accompanying Master's thesis.
+
+---
+
+## Temporal Convergence Study
+
+The temporal convergence study can be reproduced by executing the refinement experiments included in the notebooks.
+
+The implementation verifies the second-order temporal accuracy of the fully decoupled SAV scheme by comparing numerical solutions obtained with progressively refined time-step sizes.
+
+---
+
+## CPU vs GPU Benchmark
+
+A comparison of the computational performance of the CPU and GPU implementations is provided in
+
+```text
+benchmarks/CPU_vs_GPU.md
+```
+
+The benchmark summarizes the hardware configuration, execution times, and observed performance improvements for representative numerical experiments performed during this project.
+
+---
+
+## Figures
+
+The repository contains the figures used throughout the accompanying Master's thesis in the `figures/` directory, including
+
+- Droplet coarsening
+- Spinodal decomposition (φ = 0)
+- Spinodal decomposition (φ = 0.3)
+- Temporal convergence study
+
+These figures can be regenerated directly from the provided notebooks.
+
+---
+
+## Thesis
+
+The complete mathematical formulation, derivation of the numerical scheme, implementation details, validation, and discussion of the numerical experiments are available in
+
+```text
+docs/Master_Thesis.pdf
+```
+
+Readers interested in the theoretical background and numerical analysis are encouraged to consult the thesis alongside the implementation.
+
+---
+
+## Acknowledgements
+
+This repository accompanies the Master's thesis
+
+**"On a Novel Fully Decoupled, Linear and Second-Order Accurate Numerical Scheme for the Cahn–Hilliard–Darcy System of Two-Phase Hele–Shaw Flow"**
+
+submitted to the **University of Koblenz (2026)**.
+
+The implementation is based on the fully decoupled Scalar Auxiliary Variable (SAV) framework proposed by **Yang (2021)** and extends it with both CPU and GPU implementations for efficient numerical simulation of the Cahn–Hilliard–Darcy system.
 
 # References
 
