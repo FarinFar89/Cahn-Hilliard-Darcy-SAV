@@ -82,28 +82,48 @@ The method is designed to provide accurate and efficient simulations of two-phas
 ```
 Cahn-Hilliard-Darcy-SAV/
 │
-├── README.md
-├── LICENSE
-├── CITATION.cff
-├── requirements.txt
-├── environment.yml
-│
-├── CPU/
-│   └── CHD_CPU.ipynb
-│
-├── GPU/
-│   └── CHD_GPU.ipynb
-│
-├── examples/
-│
-├── figures/
+├── .github/
+│   └── workflows/
+│       └── python-tests.yml          # GitHub Actions workflow
 │
 ├── benchmarks/
+│   ├── benchmark_results.csv         # CPU/GPU benchmark results
+│   └── CPU_vs_GPU.md                 # Performance comparison
 │
-└── docs/
-    └── Master_Thesis.pdf
+├── CPU/
+│   └── CHD_CPU.ipynb                 # CPU implementation of the CHD-SAV solver
+│
+├── docs/
+│   └── Master_Thesis.pdf             # Master's thesis
+│
+├── examples/
+│   └── quick_coarsening_demo.py      # Example simulation script
+│
+├── figures/
+│   ├── coarsening.png
+│   ├── convergence_study.jfif
+│   ├── spinodal_phi0.png
+│   └── spinodal_phi03.png
+│
+├── GPU/
+│   └── CHD_GPU.ipynb                 # GPU-accelerated implementation
+│
+├── output/
+│   └── quick_coarsening_demo.png     # Example simulation output
+│
+├── src/
+│   └── chd_sav/
+│       ├── __init__.py
+│       └── solver.py                 # Core CHD-SAV solver
+│
+├── .gitignore                        # Git ignore rules
+├── CHANGELOG.md                      # Version history
+├── CITATION.cff                      # Citation metadata
+├── environment.yml                   # Conda environment specification
+├── LICENSE                           # MIT License
+├── README.md                         # Project documentation
+└── requirements.txt                  # Python dependencies
 ```
-
 ---
 
 # Requirements
