@@ -122,7 +122,7 @@ The GPU implementation additionally requires:
 Clone the repository:
 
 ```bash
-git clone https://github.com/<username>/Cahn-Hilliard-Darcy-SAV.git
+git clone https://github.com/FarinFar89/Cahn-Hilliard-Darcy-SAV.git
 
 cd Cahn-Hilliard-Darcy-SAV
 ```
