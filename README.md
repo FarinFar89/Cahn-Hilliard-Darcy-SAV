@@ -34,6 +34,19 @@ The implementation includes:
 
 ---
 
+# Project Highlights
+
+- Implementation of the fully decoupled Scalar Auxiliary Variable (SAV) scheme proposed by Yang (2021) for the Cahn–Hilliard–Darcy system.
+- Linear, second-order accurate, and energy-stable time integration.
+- Fourier spectral spatial discretization using Fast Fourier Transforms (FFT).
+- CPU implementation based on NumPy and SciPy.
+- GPU-accelerated implementation using CuPy and CUDA.
+- Reproduction of the numerical experiments presented in the accompanying Master's thesis.
+- Validation through droplet coarsening, spinodal decomposition, and temporal convergence studies.
+- Open-source Python implementation intended for scientific computing, numerical analysis, and computational mathematics research.
+
+---
+
 # Mathematical Model
 
 The Cahn–Hilliard–Darcy system couples phase-field evolution with fluid motion through the interaction between:
@@ -265,19 +278,6 @@ benchmarks/CPU_vs_GPU.md
 ```
 
 ---
----
-
-# Project Highlights
-
-- Implementation of the fully decoupled Scalar Auxiliary Variable (SAV) scheme proposed by Yang (2021) for the Cahn–Hilliard–Darcy system.
-- Linear, second-order accurate, and energy-stable time integration.
-- Fourier spectral spatial discretization using Fast Fourier Transforms (FFT).
-- CPU implementation based on NumPy and SciPy.
-- GPU-accelerated implementation using CuPy and CUDA.
-- Reproduction of the numerical experiments presented in the accompanying Master's thesis.
-- Validation through droplet coarsening, spinodal decomposition, and temporal convergence studies.
-- Open-source Python implementation intended for scientific computing, numerical analysis, and computational mathematics research.
-
 ---
 
 # Reproducing the Thesis Results
