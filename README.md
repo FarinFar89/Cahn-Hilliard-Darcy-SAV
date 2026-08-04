@@ -380,11 +380,7 @@ The implementation is based on the fully decoupled Scalar Auxiliary Variable (SA
 
 # References
 
-Yang, X. (2021).
-
-A fully decoupled, linear, and second-order accurate numerical scheme for the Cahn–Hilliard–Darcy system.
-
----
+Yang, X. (2021). A fully decoupled, linear, and second-order accurate numerical scheme for the Cahn–Hilliard–Darcy system. *Computer Physics Communications, 263*, 107868. https://doi.org/10.1016/j.cpc.2021.107868
 
 # Citation
 
